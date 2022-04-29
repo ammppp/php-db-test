@@ -9,6 +9,8 @@ This utility will run the above query as many times as specified - once creating
 Below is how to build and run this example.  This shows passing the PASSWORD as an environment variable directly from the shell (such that it doesn't have to be shown each time the command is run), but all environment variables can be passed any way that Docker allows them passed (explicitly, via environment, or via environment file).
 
 ```
+sudo apt install -y docker.io git
+
 git clone https://github.com/ammppp/php-db-test
 
 cd php-db-test
